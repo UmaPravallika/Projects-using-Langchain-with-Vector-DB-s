@@ -52,21 +52,3 @@ These projects explore the synergy between **Generative AI** and **Information R
 3. **Vector Storage:** Store embeddings in FAISS or Pinecone for retrieval.  
 4. **Query Processing:** Input queries are embedded and compared for similarity.  
 5. **LLM Augmentation:** Retrieved results are passed to an LLM for intelligent response generation.  
-
----
-
-## 🧰 Setup Instructions
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/langchain-rag-projects.git
-cd langchain-rag-projects
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set OpenAI API key
-export OPENAI_API_KEY="your-api-key"
